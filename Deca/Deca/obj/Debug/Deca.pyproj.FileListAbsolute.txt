@@ -1,0 +1,10 @@
+C:\Users\mowris.n\Desktop\Programming 1\Deca\Deca\bin\Debug\Deca.exe.config
+C:\Users\mowris.n\Desktop\Programming 1\Deca\Deca\bin\Debug\Deca.exe
+C:\Users\mowris.n\Desktop\Programming 1\Deca\Deca\bin\Debug\Deca.dll
+C:\Users\mowris.n\Desktop\Programming 1\Deca\Deca\bin\Debug\IronPython.dll
+C:\Users\mowris.n\Desktop\Programming 1\Deca\Deca\bin\Debug\IronPython.Modules.dll
+C:\Users\mowris.n\Desktop\Programming 1\Deca\Deca\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\mowris.n\Desktop\Programming 1\Deca\Deca\bin\Debug\Microsoft.Scripting.dll
+C:\Users\mowris.n\Desktop\Programming 1\Deca\Deca\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\mowris.n\Desktop\Programming 1\Deca\Deca\obj\Debug\Deca.pyprojResolveAssemblyReference.cache
+C:\Users\mowris.n\Desktop\Programming 1\Deca\Deca\obj\Debug\Deca.exe
