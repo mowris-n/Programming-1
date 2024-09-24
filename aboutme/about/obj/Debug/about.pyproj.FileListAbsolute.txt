@@ -1,0 +1,10 @@
+C:\Users\mowris.n\Desktop\Programming 1\about\about\bin\Debug\about.exe.config
+C:\Users\mowris.n\Desktop\Programming 1\about\about\bin\Debug\about.exe
+C:\Users\mowris.n\Desktop\Programming 1\about\about\bin\Debug\about.dll
+C:\Users\mowris.n\Desktop\Programming 1\about\about\bin\Debug\IronPython.dll
+C:\Users\mowris.n\Desktop\Programming 1\about\about\bin\Debug\IronPython.Modules.dll
+C:\Users\mowris.n\Desktop\Programming 1\about\about\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\mowris.n\Desktop\Programming 1\about\about\bin\Debug\Microsoft.Scripting.dll
+C:\Users\mowris.n\Desktop\Programming 1\about\about\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\mowris.n\Desktop\Programming 1\about\about\obj\Debug\about.pyprojResolveAssemblyReference.cache
+C:\Users\mowris.n\Desktop\Programming 1\about\about\obj\Debug\about.exe
