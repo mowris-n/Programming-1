@@ -18,7 +18,7 @@ class MainForm(Form):
         # label1
         # 
         self._label1.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        self._label1.Font = System.Drawing.Font("Myanmar Text", 15.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+        self._label1.Font = System.Drawing.Font("Myanmar Text", 12, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
         self._label1.Location = System.Drawing.Point(205, 27)
         self._label1.Name = "label1"
         self._label1.Size = System.Drawing.Size(508, 235)
@@ -44,6 +44,7 @@ class MainForm(Form):
         self._button2.TabIndex = 2
         self._button2.Text = "Clear"
         self._button2.UseVisualStyleBackColor = True
+        self._button2.Click += self.Button2Click
         # 
         # button3
         # 
@@ -54,6 +55,7 @@ class MainForm(Form):
         self._button3.TabIndex = 3
         self._button3.Text = "Exit"
         self._button3.UseVisualStyleBackColor = True
+        self._button3.Click += self.Button3Click
         # 
         # MainForm
         # 
@@ -69,4 +71,10 @@ class MainForm(Form):
 
 
     def Button1Click(self, sender, e):
-        show._label.Text = "1. study hall 2.Computer Applications 3."
+        self._label1.Text = " 1. Study Hall \n 2. Computer Applications \n 3. Civil Engineering \n 4. Graphic Comm \n 5. Social Justice \n 6. Photography \n 7. Sociology \n 8. Computer Programming"
+
+    def Button2Click(self, sender, e):
+        self._label1.Text = ""
+
+    def Button3Click(self, sender, e):
+        Application.Exit()
