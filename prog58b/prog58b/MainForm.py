@@ -190,4 +190,10 @@ class MainForm(Form):
         Application.Exit()
 
     def Button1Click(self, sender, e):
-        pass
+        A = float(self._textBox1.Text)
+        B = float(self._textBox2.Text)
+        C = float(self._textBox1.Text)
+        root = (-B + math.sqrt(B**2 - 4*A*C))/2*A
+        root2 = (-B - math.sqrt(B**2 - 4*A*C))/2*A
+        self._label5.Text = str(root)
+        self._label7.Text = str(root2)
