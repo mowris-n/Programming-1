@@ -169,7 +169,10 @@ class MainForm(Form):
         #20 shillings to a pound, 12 pence to a shilling
         #£5.2.8 meant 5 pounds, 2 shillings and 8 pence.
         #new system is 100 pence to a pound
-        dp = pass
+        s = Shillings *0.05
+        pe = Pence * 0.05 * 0.08333
+        po = Pounds + s + pe
+        self._label7.Text = str(po)        
         
         
         
