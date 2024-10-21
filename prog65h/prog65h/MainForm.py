@@ -125,6 +125,7 @@ class MainForm(Form):
         self._button2.TabIndex = 13
         self._button2.Text = "Clear"
         self._button2.UseVisualStyleBackColor = False
+        self._button2.Click += self.Button2Click
         # 
         # button3
         # 
@@ -136,6 +137,7 @@ class MainForm(Form):
         self._button3.TabIndex = 14
         self._button3.Text = "Exit"
         self._button3.UseVisualStyleBackColor = False
+        self._button3.Click += self.Button3Click
         # 
         # MainForm
         # 
@@ -172,7 +174,17 @@ class MainForm(Form):
         s = Shillings *0.05
         pe = Pence * 0.05 * 0.08333
         po = Pounds + s + pe
-        self._label7.Text = str(po)        
+        self._label7.Text = str(po)
+        self._label7.Text = "%.2f" %(po)       
         
         
         
+
+    def Button2Click(self, sender, e):
+        self._label7.Text = ""
+        self._textBox1.Text = ""
+        self._textBox2.Text = ""
+        self._textBox2.Text = ""
+
+    def Button3Click(self, sender, e):
+        Application.Exit()
