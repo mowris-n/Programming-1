@@ -210,5 +210,5 @@ class MainForm(Form):
     def Button1Click(self, sender, e):
         kw = str(self._textBox1.Text)
         base = kw * 0.0475
-        self._label7.Text = float(base)
+        self._label7.Text = base
         
