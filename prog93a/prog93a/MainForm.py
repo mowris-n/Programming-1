@@ -171,6 +171,7 @@ class MainForm(Form):
         self._button2.TabIndex = 13
         self._button2.Text = "Clear"
         self._button2.UseVisualStyleBackColor = True
+        self._button2.Click += self.Button2Click
         # 
         # button3
         # 
@@ -181,6 +182,7 @@ class MainForm(Form):
         self._button3.TabIndex = 14
         self._button3.Text = "Exit"
         self._button3.UseVisualStyleBackColor = True
+        self._button3.Click += self.Button3Click
         # 
         # MainForm
         # 
@@ -208,7 +210,33 @@ class MainForm(Form):
 
 
     def Button1Click(self, sender, e):
-        kw = str(self._textBox1.Text)
+        kw = float(self._textBox1.Text)
         base = kw * 0.0475
-        self._label7.Text = base
+        self._label7.Text = str(base)
+        self._label7.Text = "%.2f" %(base) 
+        surcharge = base * 0.10
+        self._label8.Text = str(surcharge)
+        self._label8.Text = "%.2f" %(surcharge)
+        tax = base * 0.03
+        self._label9.Text = str(tax)
+        self._label9.Text = "%.2f" %(tax)
+        pay = tax + surcharge + base
+        self._label10.Text = str(pay)
+        self._label10.Text = "%.2f" %(pay)
+        latefee = pay * 0.04
+        late = pay + latefee
+        self._label11.Text = str(late)
+        self._label11.Text = "%.2f" %(late)
         
+        
+
+    def Button2Click(self, sender, e):
+        self._label7.Text = ""
+        self._label8.Text = ""
+        self._label9.Text = ""
+        self._label10.Text = ""
+        self._label11.Text = ""
+        self._textBox1.Text = ""
+
+    def Button3Click(self, sender, e):
+        Application.Exit()
