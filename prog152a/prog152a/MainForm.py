@@ -35,6 +35,7 @@ class MainForm(Form):
         self._button2.TabIndex = 5
         self._button2.Text = "Clear"
         self._button2.UseVisualStyleBackColor = True
+        self._button2.Click += self.Button2Click
         # 
         # button3
         # 
@@ -45,13 +46,16 @@ class MainForm(Form):
         self._button3.TabIndex = 6
         self._button3.Text = "Exit"
         self._button3.UseVisualStyleBackColor = True
+        self._button3.Click += self.Button3Click
         # 
         # listBox1
         # 
+        self._listBox1.Font = System.Drawing.Font("Microsoft Sans Serif", 15.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
         self._listBox1.FormattingEnabled = True
+        self._listBox1.ItemHeight = 25
         self._listBox1.Location = System.Drawing.Point(12, 12)
         self._listBox1.Name = "listBox1"
-        self._listBox1.Size = System.Drawing.Size(811, 303)
+        self._listBox1.Size = System.Drawing.Size(811, 279)
         self._listBox1.TabIndex = 7
         # 
         # MainForm
@@ -74,12 +78,19 @@ class MainForm(Form):
         pass
 
     def Button1Click(self, sender, e): 
-        s = 0
-        for v in range(0, 9669,3):
-            s += v
-            self._listBox1.Items.Add(v)
-            self._listBox1.Items.Add(s)
-            
+        heading = "Multiple\t\tSum"
+        self._listBox1.Items.Add(heading)
         
+        s = 0
+        for v in range(0, 9669+1,3):
+            s += v
+            vs = str(v) + "\t\t" + str(s)
+            self._listBox1.Items.Add(vs)
             
-            
+
+
+    def Button2Click(self, sender, e):
+        self._listBox1.Items.Clear()
+
+    def Button3Click(self, sender, e):
+        Application.Exit()
