@@ -76,3 +76,13 @@ class MainForm(Form):
     def Button1Click(self, sender, e):
         heading = "Number\t\tCube Root\t\tCube"
         self._listBox1.Items.Add(heading)
+        
+        for num in range(-25,25+1):
+            self._listBox1.Items.Add(num)
+            if num < 0:
+                neg = abs(num)**(1.0/3.0)
+                self._listBox1.Items.Add(neg)
+            else:   
+                cr = num**(1.0/3.0)
+                crp = "\t\t" + str(cr)
+                self._listBox1.Items.Add(crp)
