@@ -78,11 +78,4 @@ class MainForm(Form):
         self._listBox1.Items.Add(heading)
         
         for num in range(-25,25+1):
-            self._listBox1.Items.Add(num)
-            if num < 0:
-                neg = abs(num)**(1.0/3.0)
-                self._listBox1.Items.Add(neg)
-            else:   
-                cr = num**(1.0/3.0)
-                crp = "\t\t" + str(cr)
-                self._listBox1.Items.Add(crp)
+            

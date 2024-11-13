@@ -10,3 +10,15 @@ C:\Users\mowris.n\Desktop\Programming 1\prog122a\prog122a\obj\Debug\prog122a.pyp
 C:\Users\mowris.n\Desktop\Programming 1\prog122a\prog122a\obj\Debug\prog122a.MainForm.resources
 C:\Users\mowris.n\Desktop\Programming 1\prog122a\prog122a\obj\Debug\prog122a.pyproj.GenerateResource.Cache
 C:\Users\mowris.n\Desktop\Programming 1\prog122a\prog122a\obj\Debug\prog122a.exe
+C:\Users\mowris.n\Documents\GitHub\Programming-1\prog122a\prog122a\bin\Debug\prog122a.exe.config
+C:\Users\mowris.n\Documents\GitHub\Programming-1\prog122a\prog122a\bin\Debug\prog122a.exe
+C:\Users\mowris.n\Documents\GitHub\Programming-1\prog122a\prog122a\bin\Debug\prog122a.dll
+C:\Users\mowris.n\Documents\GitHub\Programming-1\prog122a\prog122a\bin\Debug\IronPython.dll
+C:\Users\mowris.n\Documents\GitHub\Programming-1\prog122a\prog122a\bin\Debug\IronPython.Modules.dll
+C:\Users\mowris.n\Documents\GitHub\Programming-1\prog122a\prog122a\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\mowris.n\Documents\GitHub\Programming-1\prog122a\prog122a\bin\Debug\Microsoft.Scripting.dll
+C:\Users\mowris.n\Documents\GitHub\Programming-1\prog122a\prog122a\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\mowris.n\Documents\GitHub\Programming-1\prog122a\prog122a\obj\Debug\prog122a.pyprojResolveAssemblyReference.cache
+C:\Users\mowris.n\Documents\GitHub\Programming-1\prog122a\prog122a\obj\Debug\prog122a.MainForm.resources
+C:\Users\mowris.n\Documents\GitHub\Programming-1\prog122a\prog122a\obj\Debug\prog122a.pyproj.GenerateResource.Cache
+C:\Users\mowris.n\Documents\GitHub\Programming-1\prog122a\prog122a\obj\Debug\prog122a.exe
