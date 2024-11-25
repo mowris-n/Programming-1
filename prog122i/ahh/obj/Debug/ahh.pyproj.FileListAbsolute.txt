@@ -1,0 +1,12 @@
+C:\Users\mowris.n\Documents\SharpDevelop Projects\ahh\ahh\obj\Debug\ahh.pyprojResolveAssemblyReference.cache
+C:\Users\mowris.n\Documents\SharpDevelop Projects\ahh\ahh\obj\Debug\ahh.MainForm.resources
+C:\Users\mowris.n\Documents\SharpDevelop Projects\ahh\ahh\obj\Debug\ahh.pyproj.GenerateResource.Cache
+C:\Users\mowris.n\Documents\SharpDevelop Projects\ahh\ahh\bin\Debug\ahh.exe.config
+C:\Users\mowris.n\Documents\SharpDevelop Projects\ahh\ahh\bin\Debug\ahh.exe
+C:\Users\mowris.n\Documents\SharpDevelop Projects\ahh\ahh\bin\Debug\ahh.dll
+C:\Users\mowris.n\Documents\SharpDevelop Projects\ahh\ahh\bin\Debug\IronPython.dll
+C:\Users\mowris.n\Documents\SharpDevelop Projects\ahh\ahh\bin\Debug\IronPython.Modules.dll
+C:\Users\mowris.n\Documents\SharpDevelop Projects\ahh\ahh\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\mowris.n\Documents\SharpDevelop Projects\ahh\ahh\bin\Debug\Microsoft.Scripting.dll
+C:\Users\mowris.n\Documents\SharpDevelop Projects\ahh\ahh\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\mowris.n\Documents\SharpDevelop Projects\ahh\ahh\obj\Debug\ahh.exe

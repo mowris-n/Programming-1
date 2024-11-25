@@ -1,0 +1,10 @@
+C:\Users\mowris.n\Documents\SharpDevelop Projects\prog52aCLASS\prog52aCLASS\bin\Debug\prog52aCLASS.exe.config
+C:\Users\mowris.n\Documents\SharpDevelop Projects\prog52aCLASS\prog52aCLASS\bin\Debug\prog52aCLASS.exe
+C:\Users\mowris.n\Documents\SharpDevelop Projects\prog52aCLASS\prog52aCLASS\bin\Debug\prog52aCLASS.dll
+C:\Users\mowris.n\Documents\SharpDevelop Projects\prog52aCLASS\prog52aCLASS\bin\Debug\IronPython.dll
+C:\Users\mowris.n\Documents\SharpDevelop Projects\prog52aCLASS\prog52aCLASS\bin\Debug\IronPython.Modules.dll
+C:\Users\mowris.n\Documents\SharpDevelop Projects\prog52aCLASS\prog52aCLASS\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\mowris.n\Documents\SharpDevelop Projects\prog52aCLASS\prog52aCLASS\bin\Debug\Microsoft.Scripting.dll
+C:\Users\mowris.n\Documents\SharpDevelop Projects\prog52aCLASS\prog52aCLASS\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\mowris.n\Documents\SharpDevelop Projects\prog52aCLASS\prog52aCLASS\obj\Debug\prog52aCLASS.pyprojResolveAssemblyReference.cache
+C:\Users\mowris.n\Documents\SharpDevelop Projects\prog52aCLASS\prog52aCLASS\obj\Debug\prog52aCLASS.exe
